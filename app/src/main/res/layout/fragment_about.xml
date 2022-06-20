@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.AboutFragment"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_about_text"
+        android:textSize="@dimen/title_text_size"
+        android:layout_margin="@dimen/margin_about" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/margin_about">
+    <TextView
+        android:id="@+id/tvAuthor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_author_text"
+        android:textSize="@dimen/text_size_about" />
+
+        <TextView
+            android:id="@+id/tvAuthorName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_author_name_text"
+            android:textSize="@dimen/text_size_about"/>
+</LinearLayout>
+
+    <TextView
+        android:id="@+id/tvGitHub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_github_text"
+        android:autoLink="web"
+        android:layout_margin="@dimen/margin_about"
+        android:textSize="@dimen/text_size_about"
+        android:textColor="@color/white"/>
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CatsTinder</string>
+    <string name="error">Ошибка. Проверьте подключение к интернету</string>
+    <string name="post_error"> Ошибка, невозможно отправить данные на сервер (нет данных для отправки)</string>
+    <string name="reload">Перезагрузить</string>
+    <string name="menu_Item_favorite_text">Favorite Cats</string>
+    <string name="menu_item_about_text">About</string>
+    <string name="tv_github_text">github.com/LuninDima?tab=repositories</string>
+    <string name="tv_author_text">Автор:</string>
+    <string name="tv_author_name_text">Лунин Дмитрий</string>
+    <string name="tv_about_text">О приложении</string>
+    <string name="menu_main_fragment_text">Main</string>
+</resources>

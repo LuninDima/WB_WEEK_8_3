@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/mainFragment"
+        android:title="@string/menu_main_fragment_text"
+        android:menuCategory="secondary"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/aboutFragment"
+        android:title="@string/menu_item_about_text"
+        android:menuCategory="secondary"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/favoriteFragment"
+        android:title="@string/menu_Item_favorite_text"
+        android:menuCategory="secondary"
+        android:icon="@drawable/iconfavorite"
+        app:showAsAction="always"/>
+
+
+</menu>

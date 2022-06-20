@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_5_dp">5</dimen>
+    <dimen name="hairline">1</dimen>
+    <dimen name="title_text_size">36sp</dimen>
+    <dimen name="margin_about">20dp</dimen>
+    <dimen name="text_size_about">18sp</dimen>
+</resources>

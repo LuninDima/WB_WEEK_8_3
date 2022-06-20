@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.wb_week_8_3.view.main.MainFragment"
+        android:label="CatsTinder" />
+    <fragment
+        android:id="@+id/favoriteFragment"
+        android:name="com.example.wb_week_8_3.view.favorite.FavoriteFragment"
+        android:label="Favorite Cats" />
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.wb_week_8_3.view.AboutFragment"
+        android:label="About"
+        tools:layout="@layout/fragment_about" />
+</navigation>
