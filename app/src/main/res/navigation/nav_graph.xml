@@ -14,7 +14,7 @@
         android:label="Favorite Cats" />
     <fragment
         android:id="@+id/aboutFragment"
-        android:name="com.example.wb_week_8_3.view.AboutFragment"
+        android:name="com.example.wb_week_8_3.view.about.AboutFragment"
         android:label="About"
         tools:layout="@layout/fragment_about" />
 </navigation>

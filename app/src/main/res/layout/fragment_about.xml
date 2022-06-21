@@ -3,43 +3,90 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.AboutFragment"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".view.about.AboutFragment">
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_about"
         android:text="@string/tv_about_text"
-        android:textSize="@dimen/title_text_size"
-        android:layout_margin="@dimen/margin_about" />
+        android:textSize="@dimen/title_text_size" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_margin="@dimen/margin_about">
-    <TextView
-        android:id="@+id/tvAuthor"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/tv_author_text"
-        android:textSize="@dimen/text_size_about" />
+        android:layout_margin="@dimen/margin_about"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvAuthor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_author_text"
+            android:textSize="@dimen/text_size_about" />
 
         <TextView
             android:id="@+id/tvAuthorName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/tv_author_name_text"
-            android:textSize="@dimen/text_size_about"/>
-</LinearLayout>
+            android:textSize="@dimen/text_size_about" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_about"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvTelegram"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/telegram"
+            android:textSize="@dimen/text_size_about" />
+
+        <TextView
+            android:id="@+id/tvTelegramUrl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink=""
+            android:text="@string/telegram_url"
+            android:textSize="@dimen/text_size_about" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_about"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvDataApp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_data_app_text"
+            android:textSize="@dimen/text_size_about" />
+
+        <TextView
+            android:id="@+id/tvDataAppValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:text="@string/tv_data_app_value_text"
+            android:textSize="@dimen/text_size_about" />
+    </LinearLayout>
 
     <TextView
         android:id="@+id/tvGitHub"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/tv_github_text"
-        android:autoLink="web"
         android:layout_margin="@dimen/margin_about"
-        android:textSize="@dimen/text_size_about"
-        android:textColor="@color/white"/>
+        android:autoLink="web"
+        android:text="@string/tv_github_text"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_about" />
 
 </LinearLayout>

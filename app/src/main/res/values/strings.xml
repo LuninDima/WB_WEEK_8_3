@@ -10,4 +10,9 @@
     <string name="tv_author_name_text">Лунин Дмитрий</string>
     <string name="tv_about_text">О приложении</string>
     <string name="menu_main_fragment_text">Main</string>
+
+    <string name="telegram">Telegram:</string>
+    <string name="telegram_url">https://t.me/LuninDmitriy</string>
+    <string name="tv_data_app_value_text">21.06.2022</string>
+    <string name="tv_data_app_text">Дата создания приложения:</string>
 </resources>
