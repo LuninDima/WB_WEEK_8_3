@@ -4,7 +4,6 @@ import android.app.Application
 import androidx.room.Room
 import com.example.wb_week_8_3.model.dataSource.room.FavoriteDao
 import com.example.wb_week_8_3.model.dataSource.room.FavoriteDataBase
-import com.github.terrakok.cicerone.Cicerone
 
 class App: Application() {
     override fun onCreate() {
