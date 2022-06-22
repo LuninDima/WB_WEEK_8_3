@@ -5,4 +5,4 @@
 При повторном запуске приложения данные о лайкнутых котах загружаются из базы данных. 
 В случае, если в базе данных ничего нет, загружаются данные сервера. 
 Используемый стек:
-MVVM, Single Activity, Ktor, Fresco, Room, Navigation Components, Coroutines.
+MVVM, Single Activity, Ktor, Kotlin Serialization, Fresco, Room, Navigation Components, Coroutines.
