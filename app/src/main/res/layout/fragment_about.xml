@@ -51,7 +51,7 @@
             android:id="@+id/tvTelegramUrl"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:autoLink=""
+            android:autoLink="web"
             android:text="@string/telegram_url"
             android:textSize="@dimen/text_size_about" />
     </LinearLayout>
