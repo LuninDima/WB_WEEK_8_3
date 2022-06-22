@@ -68,9 +68,6 @@ dependencies {
     implementation 'androidx.room:room-runtime:2.4.2'
     kapt 'androidx.room:room-compiler:2.4.2'
 
-    //Cicerone
-    implementation 'com.github.terrakok:cicerone:6.6'
-
     // Navigation Components
     def nav_version = "2.4.2"
     // Java language implementation
